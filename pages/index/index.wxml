@@ -1,0 +1,55 @@
+  <!--index.wxml-->
+<view class="container">
+  <swiper class="banner" autoplay='{{autoplay}}' interval="{{interval}}" indicatorDots="{{indicatorDots}}" duration="{{duration}}">
+    <block wx:for="{{banner.imgUrls}}">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" width="355" height="150"/>
+      </swiper-item>
+    </block>
+  </swiper>
+  <view class="message">
+    <view class="site">
+      <navigator>
+          北京市
+      </navigator>
+    </view>
+    <view class="searchLine">
+      <image src="{{searchLogo}}"></image>
+      <input type="text" placeholder='输入搜索' />
+    </view>
+    <button class="searchBtn" plain type='warn'>搜索</button>
+  </view> 
+  <view class="function">
+    <view class="functionItem" wx:for="{{function.array}}">
+      <image src="{{item.img}}"></image>
+      <text>{{item.name}}</text>
+    </view>
+  </view>
+  <view class='brand'>
+    <view class="titleTwo">{{brand.title}}</view>
+    <view class="brandG">
+        <scroll-view class="scrillX" scroll-x style='100%'>
+          <view wx:for="{{brand.array}}" class="brandView">
+            <image src='{{item}}'></image>
+          </view>
+        </scroll-view>
+    </view>
+  </view>
+  <view class="goods">
+    <view class="goodsItem" wx:for="{{goods.array}}">
+      <image src='{{item.img}}'></image>
+      <text class="goodsName">{{item.name}}</text>
+      <text class="goodsBrand">{{item.nameBrand}}</text>
+      <view class="goodsMoney">
+        {{item.newMoney}}<text>{{item.oldMoney}}</text>
+      </view>
+      <view class="goodsOther">
+        <text>{{item.evaluate}}人评价</text><text>{{item.goDone}}</text>
+      </view>
+    </view>
+  </view>
+  <button class="moreBtn" bindtap='addMore' loading="{{loading}}" plain='{{plain}}' hover-class="moreClass" hover-stay-time="5000">点击查看更多</button>
+  <loading hidden="true" bindchange="loadingChange">
+    加载中...
+  </loading> 
+</view>

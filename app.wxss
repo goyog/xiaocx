@@ -1,0 +1,11 @@
+.container {
+  width: 100%;
+  overflow: hidden;
+  background-color: #f9f9f9;
+  font-family:"Microsoft YaHei";
+}
+
+page{
+  height: 100%;
+  font-family:"Microsoft YaHei";
+}

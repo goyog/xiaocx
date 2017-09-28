@@ -1,0 +1,207 @@
+.banner{
+  width: 750rpx;
+  height:400rpx;
+}
+.banner image{
+  width: 750rpx;
+  height:400rpx;
+}
+.nav-hover{
+  color:red;
+}
+.message{
+  width: 700rpx;
+  padding: 25rpx;
+  overflow: hidden;
+  background-color: #fff;
+}
+.site{
+  width: 150rpx;
+  height: 60rpx;
+  float: left;
+  line-height: 60rpx;
+  font-size: 14px;
+  text-align: center;
+  background-color: #f1f1ef;
+  border-radius: 10rpx;
+  margin-right: 30rpx;
+}
+.searchLine{
+  width:375rpx;
+  float: left;
+  height: 60rpx;
+  font-size: 16px;
+  line-height: 60rpx;
+   border: 1rpx solid #c7c7c7; 
+  border-radius: 8rpx;
+   box-sizing: border-box; 
+}
+.searchLine image{
+  width: 60rpx;
+  height: 58rpx;
+  float: left;
+}
+.searchLine input{
+  display:block;
+  float:left;
+  width:310rpx;
+  height:36rpx;
+  line-height:36rpx;
+  padding:5rpx 0;
+  border:none;
+  font-size:26rpx;
+
+}
+.searchBtn{
+  width:120rpx;
+  height:60rpx;
+  float:right;
+  font-size:26rpx;
+  padding:0;
+  line-height: 60rpx;
+
+}
+.function{
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #fff;
+}
+.functionItem{
+  width: 25%;
+  height: 140rpx;
+  padding-bottom:30rpx; 
+}
+.functionItem image{
+  width:90rpx;
+  display: block;
+  height: 90rpx;
+  margin: 0 auto;
+}
+.functionItem text{
+  width: 100%;
+  height: 50rpx;
+  display: block;
+  line-height: 50rpx;
+  text-align: center;
+  font-size: 14px;
+}
+.brand{
+  width: 100%;
+  overflow: hidden;
+  background-color: #fff;
+  margin: 24rpx 0;
+}
+.titleTwo{
+  width: 100%;
+  height: 100rpx;
+  text-align: center;
+  line-height: 100rpx;  
+}
+.brandG{
+  width: 100%;
+  overflow: hidden;
+}
+.scrillX{
+  white-space: nowrap;
+}
+.brandG .brandView{
+  width: 146rpx;
+  height:50rpx;
+  display: inline-block;
+  position: relative;
+  padding: 0 30rpx;
+  margin: 50rpx 0;
+  border-right: 1rpx solid #c8c4c5;
+}
+.brandG .brandView:last-child{
+  border: none;
+}
+.brandG .brandView image{
+  width: 146rpx;
+  height: 146rpx;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+.goods{
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #fff;
+  padding-top: 20rpx;
+}
+.goods .goodsItem{
+  width: 352rpx;
+  overflow: hidden;
+  border: 1rpx solid #E8E8E8;
+  margin-left: 15rpx;
+  margin-bottom: 20rpx;
+}
+.goodsItem image{
+  width: 100%;
+  height: 352rpx;
+  display: block;
+}
+.goodsName{
+  width: 100%;
+  display: block;
+  height: 50rpx;
+  line-height:50rpx;
+  font-size: 14px;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+}
+.goodsBrand{
+  width: 100%;
+  height: 40rpx;
+  line-height: 40rpx;
+  font-size: 12px;
+  display: block;
+}
+.goodsMoney{
+  height: 55rpx;
+  width: 100%;
+  font-size: 14px;
+  line-height: 55rpx;
+  color: #f00;
+  text-indent:10rpx;
+}
+.goodsMoney text{
+  display: inline-block;
+  color: #B0B0B0;
+  text-decoration: line-through;
+}
+.goodsOther{
+  width:100%;
+  height: 50rpx;
+  line-height: 50rpx;
+  font-size: 22rpx;
+  color: #B0B0B0;
+}
+.goodsOther text{
+  width: 50%;
+  height: 50rpx;
+  display: inline-block;
+}
+.goodsOther text:last-child{
+  text-align: right;
+}
+.moreBtn{
+  width: 90%;
+  margin: 30rpx auto;
+  font-size: 14px;
+  height: 80rpx;
+  line-height: 80rpx;
+  border: 1px solid #eee !important;
+}
+.moreClass{
+  background-color: red;
+  color: #fff;
+}
